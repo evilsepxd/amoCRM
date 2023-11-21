@@ -1,0 +1,14 @@
+.promo {
+	position: relative;
+	padding: 57px 150px 20px;
+
+	background: url('../assets/img/bg.png') center / cover no-repeat;
+	background-color: $black;
+	&__wrapper {
+		display: flex;
+		align-items: start;
+		justify-content: space-between;
+
+		margin-top: 94px;
+	}
+}

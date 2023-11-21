@@ -1,0 +1,44 @@
+.footer {
+	margin-top: 124px;
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	gap: 40px;
+
+	background: $black;
+	&__wrapper {
+		display: flex;
+		align-items: start;
+		gap: 98px;
+	}
+	&__menu-links {
+		display: flex;
+		gap: 52px;
+	}
+	&__contacts {
+		text-align: right;
+
+		color: var(--light-text, #E4E5EA);
+		text-align: right;
+		font-family: Inter;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+	&__social {
+		display: flex;
+		justify-content: end;
+		gap: 10px;
+	}
+	&__policy {
+		margin-top: 70px;
+		* {
+			font-size: 12px;
+			font-weight: 400;
+		}
+		&-link {
+			text-decoration: underline;
+		}
+	}
+}

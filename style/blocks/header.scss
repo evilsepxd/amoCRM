@@ -1,0 +1,27 @@
+.header {
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	&__wrapper {
+		display: flex;
+		align-items: start;
+		gap: 52px;
+	}
+	&__nav {
+		margin-top: 4px;
+
+		display: flex;
+		align-items: center;
+		gap: 30px;
+	}
+	&__contacts {
+		margin-top: 4px;
+	}
+	&__links {
+		display: inline-flex;
+		align-items: center;
+		gap: 30px;
+
+		margin-left: 47px;
+	}
+}

@@ -1,0 +1,26 @@
+.title {
+	&__title {
+		font-family: Inter;
+		font-size: 48px;
+		font-weight: 400;
+		span {
+			display: block;
+
+			background: $gradient-welbex;
+			color: transparent;
+			-webkit-background-clip: text;
+			background-clip: text;
+
+			font-family: Inter;
+			font-size: 48px;
+			font-weight: 900;
+		}
+	}
+	&__descr {
+		margin-top: 30px;
+		max-width: 275px;
+
+		font-size: 18px;
+		font-weight: 400;
+	}
+}

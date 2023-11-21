@@ -1,0 +1,37 @@
+.links {
+	&__title {
+		color: $dark-gray;
+
+		font-family: Inter;
+		font-size: 14px;
+		font-weight: 700;
+		letter-spacing: 0.7px;
+		text-transform: uppercase;
+
+		white-space: nowrap;
+	}
+	&__list {
+		margin-top: 20px;
+
+		list-style-type: none;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		gap: 10px;
+		&_g20 {
+			gap: 20px;
+		}
+	}
+	&__link {
+		li, address {
+			font-family: Inter;
+			font-size: 16px;
+			font-weight: 400;
+		}
+		address {
+			font-style: normal;
+			white-space: nowrap;
+		}
+	}
+}
